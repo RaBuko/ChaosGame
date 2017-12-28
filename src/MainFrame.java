@@ -2,8 +2,8 @@ import javax.swing.*;
 
 class MainFrame extends JFrame
 {
-    DrawingPanel panel = new DrawingPanel();
-    MainFrame()
+    private DrawingPanel panel = new DrawingPanel();
+    private MainFrame()
     {
         super("ChaosGame by Rafal Bukowski");
         setLocation(100,100);

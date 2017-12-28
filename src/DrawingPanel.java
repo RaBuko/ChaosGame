@@ -14,7 +14,7 @@ class DrawingPanel extends JPanel implements ActionListener, MouseListener
     private JButton reset_button = new JButton("RESET");
     private JLabel iterations_desc_label = new JLabel("Ilosc iteracji:");
     private JTextField iterations_textField = new JTextField("100",4);
-    private JLabel iterations_count_label = new JLabel("i = 0");
+    private JLabel iterations_count_label = new JLabel("Ilosc punktow = 0");
     private JTextArea log_textArea = new JTextArea(5,30);
     private JScrollPane scrollPane = new JScrollPane(log_textArea);
     private JButton active_points = new JButton("Wyświetl punkty");
@@ -141,19 +141,13 @@ class DrawingPanel extends JPanel implements ActionListener, MouseListener
     }
 
     @Override
-    public void mousePressed(MouseEvent e) {
-
-    }
+    public void mousePressed(MouseEvent e) {}
     @Override
     public void mouseReleased(MouseEvent e) {}
     @Override
-    public void mouseEntered(MouseEvent e) {
-
-    }
+    public void mouseEntered(MouseEvent e) {}
     @Override
-    public void mouseExited(MouseEvent e) {
-
-    }
+    public void mouseExited(MouseEvent e) {}
 
     private final String message = "CHAOS GAME\n\n" +
             "Symulator gry w chaos\n" +
